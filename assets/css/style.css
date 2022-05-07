@@ -1,0 +1,42 @@
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.background {
+    background-image: url("../images/jumbotron.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.page-title{
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #fff;
+    font-size: 4.25rem;
+}
+.wrap{
+    font-style: normal;
+    line-height: 1.6;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+@media only screen and (max-width: 600px) {
+    .page-title {
+        font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
+        line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    }
+    .wrap{
+        font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+        line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    }
+}
+
+        
