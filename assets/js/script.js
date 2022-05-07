@@ -1,3 +1,4 @@
+$('.page-title').html(location.hostname);
 var random = Math.floor(Math.random() * quotes.length);        
 var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
